@@ -1,0 +1,88 @@
+OmniDoc 软件许可协议（专有软件）
+OmniDoc Software License Agreement (Proprietary Software)
+
+版权所有 © 2026 济南云曦科技有限公司（OmniDoc）。保留所有权利。
+Copyright © 2026 济南云曦科技有限公司 (OmniDoc). All rights reserved.
+
+本软件是专有软件，不是开源软件，也不是免费授权的公共作品。安装、复制或使用本软件，即表示您同意本协议；不同意的，请勿安装或使用，并删除本软件。
+
+======================================================================
+中文版本（以本版本为准）
+======================================================================
+
+第一条 定义
+“本公司”指济南云曦科技有限公司（OmniDoc）。“本软件”指 OmniDoc 桌面客户端及随附的全部程序、引擎（包括文档、表格、演示、图片、PDF 转换与编辑、翻译与 AI 接口引擎）、界面、脚本、模板、配置、文档、数据及其更新，第三方组件除外（见第九条）。
+
+第二条 许可
+在您遵守本协议的前提下，本公司授予您一项非独占、不可转让、不可再许可、可撤销的有限许可，仅允许您在您拥有或合法控制的设备上安装并运行本软件的目标代码，用于您自己的文档处理。本软件是许可使用，而不是出售。本协议未明确授予的一切权利，均由本公司保留。
+
+第三条 严格禁止
+除法律明确允许且不得以合同排除的情形外，未经本公司事先书面授权，您不得，也不得允许或协助任何第三方：
+（一）复制本软件或其任何部分（为正常安装和运行所必需的自动复制除外）；
+（二）修改、翻译、改编本软件，或以本软件为基础制作衍生作品；
+（三）反向工程、反编译、反汇编、解密、去混淆、调试分析，或以其他任何方式试图获取本软件的源代码、算法、数据结构、文件格式实现、渲染与排版规则、模型、提示词或内部接口；
+（四）提取、拆分或单独使用本软件中的任何程序、引擎、动态库、界面资源、脚本、模板、字体配置或数据；
+（五）出租、出借、出售、转售、再分发、再许可、公开传播本软件，或将本软件或其任何部分作为服务（包括 SaaS、API、在线转换或代处理服务）向第三方提供；
+（六）使用本软件或其任何部分，开发、训练、测试、对标或改进与本软件构成竞争的产品或服务；
+（七）抄袭、仿制本软件的界面、交互设计、功能组合或文档内容，用于其他产品；
+（八）移除、遮盖、篡改本软件中的版权、品牌、许可或其他权利声明；
+（九）绕过、破解、篡改或干扰本软件的账号、授权、计费、更新、完整性校验或安全机制。
+
+第四条 知识产权
+本软件及其全部副本、更新和文档的所有权利、所有权和利益，包括著作权、商业秘密、专利申请权及其他知识产权，均归本公司或其许可方所有。“OmniDoc”“至译”“UniDoc”“UniCell”“UniPPT”“UniPic”“UniMail”等名称、标识和界面设计是本公司的产品名称和品牌标识，未经书面许可不得使用。
+
+第五条 您的文件
+您使用本软件创建或处理的文件和内容，归您或相应权利人所有。本协议不使本公司取得您文件的任何权利。
+
+第六条 在线服务
+账号、翻译、AI、分享、签署等在线功能另受本公司公布的服务条款（https://omnidoc.top/terms）和隐私政策（https://omnidoc.top/privacy）约束。
+
+第七条 终止与违约责任
+您违反本协议任何条款的，本许可自动终止，您须立即停止使用并删除本软件的全部副本。本公司保留依法追究违约和侵权责任的权利，包括要求停止侵害、消除影响、赔偿全部损失（含维权所支出的合理费用），并保留追究其他法律责任的权利。
+
+第八条 免责与责任限制
+在适用法律允许的最大范围内，本软件按“现状”提供，本公司不作任何明示或默示的保证。本公司对因使用或无法使用本软件造成的任何间接、附带、特殊或后果性损失不承担责任。法律另有强制性规定的，从其规定。
+
+第九条 第三方组件
+本软件包含的第三方组件（例如 Chromium Embedded Framework、开源库和字体）依其各自的许可提供，详见安装目录中的 THIRD_PARTY_NOTICES.md、THIRD_PARTY_LICENSES.txt、CEF-LICENSE.txt、CREDITS.html 以及 engines 目录下各 licenses 文件夹。本协议不限制您依据这些第三方许可对相应组件享有的权利；这些许可不延及本软件的其余部分。
+
+第十条 适用法律与争议解决
+本协议适用中华人民共和国法律（不含冲突法规则）。因本协议产生的争议，提交本公司住所地有管辖权的人民法院诉讼解决。
+
+第十一条 联系方式
+商业授权、合作及侵权举报：cc@omnidoc.top
+
+======================================================================
+English version (for reference; the Chinese version prevails)
+======================================================================
+
+1. Definitions. "We" means 济南云曦科技有限公司 (OmniDoc). "The Software" means the OmniDoc desktop client and every program, engine (document, spreadsheet, presentation, picture, PDF conversion and editing, translation and AI interface engines), user interface, script, template, configuration, document, data and update delivered with it, except the third-party components in section 9.
+
+2. License. Provided you comply with this Agreement, we grant you a non-exclusive, non-transferable, non-sublicensable, revocable, limited license to install and run the object code of the Software on devices you own or lawfully control, for processing your own documents. The Software is licensed, not sold. All rights not expressly granted are reserved.
+
+3. Strict prohibitions. Except where applicable law expressly permits it and the permission cannot be excluded by contract, you may not, and may not allow or help anyone to, without our prior written permission:
+   (a) copy the Software or any part of it, other than the automatic copies needed to install and run it;
+   (b) modify, translate or adapt the Software, or create derivative works based on it;
+   (c) reverse engineer, decompile, disassemble, decrypt, deobfuscate or debug the Software, or otherwise try to obtain its source code, algorithms, data structures, file-format implementations, rendering and layout rules, models, prompts or internal interfaces;
+   (d) extract, separate or use on its own any program, engine, library, interface resource, script, template, font configuration or data of the Software;
+   (e) rent, lend, sell, resell, redistribute, sublicense or publish the Software, or provide it or any part of it to others as a service (including SaaS, APIs, online conversion or processing services);
+   (f) use the Software or any part of it to develop, train, test, benchmark or improve a product or service that competes with it;
+   (g) copy or imitate the Software's interface, interaction design, feature set or documentation for another product;
+   (h) remove, obscure or alter any copyright, brand, license or other rights notice in the Software;
+   (i) circumvent, crack, tamper with or interfere with the Software's account, licensing, billing, update, integrity or security mechanisms.
+
+4. Intellectual property. All right, title and interest in the Software, its copies, updates and documentation, including copyright, trade secrets, patent rights and other intellectual property, belong to us or our licensors. "OmniDoc", "至译", "UniDoc", "UniCell", "UniPPT", "UniPic", "UniMail" and their logos and interface designs are our product names and brand identifiers and may not be used without written permission.
+
+5. Your files. Files and content you create or process with the Software belong to you or their rights holders. This Agreement gives us no rights in your files.
+
+6. Online services. Account, translation, AI, sharing and signing features are also governed by our Terms of Service (https://omnidoc.top/terms) and Privacy Policy (https://omnidoc.top/privacy).
+
+7. Termination and liability for breach. If you breach any term of this Agreement, this license ends automatically and you must stop using and delete all copies of the Software. We reserve all rights to pursue breach and infringement under the law, including injunctions and full compensation for losses and reasonable enforcement costs.
+
+8. Disclaimer and limitation of liability. To the maximum extent permitted by applicable law, the Software is provided "as is" without warranties of any kind, and we are not liable for any indirect, incidental, special or consequential damages arising from the use of or inability to use the Software. Mandatory provisions of law prevail.
+
+9. Third-party components. Third-party components included in the Software (such as the Chromium Embedded Framework, open-source libraries and fonts) are provided under their own licenses; see THIRD_PARTY_NOTICES.md, THIRD_PARTY_LICENSES.txt, CEF-LICENSE.txt, CREDITS.html and the licenses folders under engines in the installation folder. This Agreement does not limit your rights under those licenses for those components; those licenses do not extend to the rest of the Software.
+
+10. Governing law and disputes. This Agreement is governed by the laws of the People's Republic of China, excluding its conflict-of-laws rules. Disputes are submitted to the competent people's court where we are domiciled.
+
+11. Contact. Commercial licensing, partnerships and infringement reports: cc@omnidoc.top
