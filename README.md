@@ -1,6 +1,6 @@
 # OmniDoc
 
-OmniDoc 是一款可免费下载使用的桌面办公软件，用于编辑文档、表格、演示文稿和 PDF，也提供免费整篇文档翻译。
+OmniDoc 是一款可免费下载使用的桌面办公软件，用于编辑文档、表格、演示文稿和 PDF，也提供免费整篇文档翻译和免费结构化提取。
 
 [官网](https://omnidoc.top/) · [English](#omnidoc-english)
 
@@ -34,27 +34,35 @@ PDF 工具还包括电子签名、表单和文字识别，并支持导出为 Wor
 
 ## 免费文档翻译
 
-在浏览器中打开[免费 PDF 翻译入口](https://omnidoc.top/guides/free-pdf-translator/)，登录后进入「免费翻译」。
+在浏览器中打开[免费文档翻译](https://omnidoc.top/free/translate/)，用 OmniDoc 账号登录（注册免费），不需要安装软件。
 
-上传整篇文件并选择目标语言，等待处理完成后下载结果，不需要逐段复制粘贴。
+上传整篇文件，原文语言自动识别，选择目标语言后等待处理完成再下载，不需要逐段复制粘贴。关闭页面不影响处理，之后可在「最近的翻译」里找到结果。
 
-PDF 与 LaTeX 文件翻译后，双语对照版和纯译文各给一份：前者便于逐段核对，后者适合连续阅读。
+PDF 与 LaTeX 文件翻译后，双语对照版和纯译文各给一份：前者便于逐段核对，后者适合连续阅读。PowerPoint 只提供纯译文。
 
-翻译时会尽量保留原文件的标题层级、段落、表格和图片位置。
+翻译时会尽量保留原文件的标题层级、段落、表格和图片位置；表格逐格翻译，行列结构不变。
 
-支持 PDF、Word、PowerPoint、Excel、CSV、EPUB、Markdown、TXT、网页、字幕、图片，以及 LaTeX 的 `.tex` 文件和源码包；支持 90 多种语言。
+支持 PDF、Word、PowerPoint、Excel、CSV、EPUB、Markdown、TXT、HTML、SRT/ASS 字幕、JPG/PNG 图片，以及 LaTeX 的 `.tex` 文件和源码包；可译为中文、英文、日文、韩文、法文、德文、西班牙文等 30 多种语言。
 
 **免费规则**
 
-- 不扣积分。
-- 单个文件最多 200 页。
-- 每人同时处理 2 个文件，其余排队。
-- 每天有免费名额。
-- 翻译结果只有提交人自己看得到。
+- 需要登录，注册免费。
+- 单个文件最多 501 页。
+- 每人同时处理 2 个文件，其余按提交顺序排队。
+- 上传的文件和处理结果只有提交人自己看得到。
+- 免费翻译采用机器翻译，重要文件请核对数字、术语和引用。
 
 ![OmniDoc 双语对照翻译界面](https://omnidoc.top/images/screenshots/zh/translate-bilingual-1280.webp)
 
 上图展示双语对照翻译界面，原文和译文放在一起，便于核对内容。
+
+## 免费结构化提取
+
+在浏览器中打开[免费结构化提取](https://omnidoc.top/free/extract/)，登录后上传 PDF、扫描件、Word、PowerPoint 或 Excel 文件，得到 Markdown 和 JSON。
+
+PDF、扫描件和图片经版面分析、文字识别和表格识别处理；Word、PowerPoint、Excel、电子书和网页直接解析文档结构。下载的 ZIP 压缩包里有 `document.md`（Markdown 全文）、`document.json`（按阅读顺序排列的结构化数据）、`images/`（文档中的图片）和 `manifest.json`（文件清单）。
+
+标题层级、段落和表格行列都会保留。PDF 单个文件最多 501 页，每人同时处理 2 个文件。扫描件的识别结果请与原文核对，尤其是数字和表格。
 
 ## 许可与链接
 
@@ -65,11 +73,12 @@ OmniDoc 是专有软件，不是开源软件。本仓库只发布安装包，源
 - [官网](https://omnidoc.top/)
 - [下载页](https://download.omnidoc.top/)
 - [开发者文档](https://docs.omnidoc.top/)
-- [免费 PDF 翻译](https://omnidoc.top/guides/free-pdf-translator/)
+- [免费文档翻译](https://omnidoc.top/free/translate/)
+- [免费结构化提取](https://omnidoc.top/free/extract/)
 
 # OmniDoc (English)
 
-OmniDoc is a free-to-use desktop application for editing documents, spreadsheets, presentations and PDFs. It also offers free translation of entire documents.
+OmniDoc is a free-to-use desktop application for editing documents, spreadsheets, presentations and PDFs. It also offers free translation of entire documents and free structured extraction.
 
 [Website](https://omnidoc.top/) · [Downloads](https://download.omnidoc.top/) · [Developer documentation](https://docs.omnidoc.top/)
 
@@ -93,23 +102,31 @@ The **MCP interface** gives AI assistants such as Claude, Codex and Cursor direc
 
 ## Free document translation
 
-Open the [free PDF translator](https://omnidoc.top/guides/free-pdf-translator/) in your browser and sign in. Upload a whole file, choose the target language and download the results when processing finishes.
+Open the [free document translator](https://omnidoc.top/free/translate/) in your browser and sign in with an OmniDoc account (registration is free); nothing needs to be installed. Upload a whole file and the source language is detected for you. Choose the target language and download the results when processing finishes.
 
-For PDF and LaTeX files, you receive both a bilingual version for checking against the original and a translation-only version for uninterrupted reading. Translation aims to preserve the original layout, including headings, paragraphs, tables and image positions.
+For PDF and LaTeX files, you receive both a bilingual version for checking against the original and a translation-only version for uninterrupted reading; PowerPoint comes back as translation-only. Translation aims to preserve the original layout, including headings, paragraphs, tables (translated cell by cell) and image positions.
 
-Supported inputs include PDF, Word, PowerPoint, Excel, CSV, EPUB, Markdown, TXT, web pages, subtitles, images, and LaTeX `.tex` files or source bundles. Translation is available in more than 90 languages.
+Supported inputs include PDF, Word, PowerPoint, Excel, CSV, EPUB, Markdown, TXT, HTML, SRT and ASS subtitles, JPG and PNG images, and LaTeX `.tex` files or source bundles. Target languages include Chinese, English, Japanese, Korean, French, German and Spanish, 30+ in total.
 
 The free service has these limits:
 
-- No credits are deducted.
-- Each file can contain up to 200 pages.
-- Up to two files per person are processed at once; additional files wait in the queue.
-- Free slots are available each day, in limited numbers.
-- Only the person who submitted a file can view its translation results.
+- Sign-in is required; registration is free.
+- Each file can contain up to 501 pages.
+- Up to two files per person are processed at once; additional files wait in the queue in the order they were submitted.
+- Only the person who submitted a file can view its results.
+- It is machine translation: please check numbers, terms and citations in important documents.
 
 ![OmniDoc bilingual translation interface](https://omnidoc.top/images/screenshots/en/translate-bilingual-1280.webp)
 
 The screenshot shows the bilingual view, with the original text alongside its translation for comparison.
+
+## Free structured extraction
+
+Open the [free structured extractor](https://omnidoc.top/free/extract/) in your browser, sign in, and upload a PDF, scan, Word, PowerPoint or Excel file to get Markdown and JSON.
+
+PDFs, scans and images go through layout analysis, OCR and table recognition. Word, PowerPoint, Excel, EPUB and HTML files are parsed directly. The downloaded ZIP contains `document.md` (the full text as Markdown), `document.json` (structured data in reading order), `images/` (the pictures) and `manifest.json` (a file list).
+
+Heading levels, paragraphs and table rows and columns are kept. Up to 501 pages per PDF and two files at a time. Please check OCR results against the original, especially numbers and tables.
 
 ## License and links
 
@@ -117,6 +134,6 @@ OmniDoc is proprietary software, not open source. This repository distributes in
 
 Online features—accounts, translation, AI, sharing and signing—are also governed by the [Terms of Service](https://omnidoc.top/terms) and [Privacy Policy](https://omnidoc.top/privacy).
 
-Visit the [website](https://omnidoc.top/) for product information, the [download page](https://download.omnidoc.top/) or [Releases](https://github.com/CBIhalsen/omnidoc/releases) for installers, and the [developer documentation](https://docs.omnidoc.top/) for MCP access. The [free PDF translator](https://omnidoc.top/guides/free-pdf-translator/) requires sign-in.
+Visit the [website](https://omnidoc.top/) for product information, the [download page](https://download.omnidoc.top/) or [Releases](https://github.com/CBIhalsen/omnidoc/releases) for installers, and the [developer documentation](https://docs.omnidoc.top/) for MCP access. The [free translator](https://omnidoc.top/free/translate/) and [free extractor](https://omnidoc.top/free/extract/) require sign-in.
 
-<sub>仓库只发布安装包；免费翻译需要登录并排队，每天名额有限；AI 译文请对照原文核对重要内容。</sub>
+<sub>仓库只发布安装包；免费翻译和免费提取需要登录，文件较多时需要排队；AI 译文和识别结果请对照原文核对重要内容。</sub>
