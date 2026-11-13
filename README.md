@@ -32,6 +32,12 @@ PDF 工具还包括电子签名、表单和文字识别，并支持导出为 Wor
 
 接入方式见[开发者文档](https://docs.omnidoc.top/)。
 
+## 流畅、Office 原生格式和中文国标格式
+
+- **打开快、保存快**：13.6 MB 的论文 PDF 从启动到显示第一页约 4 秒，保存约 0.06 秒；在 PDF 段落里打字，页面直接显示最终排版，写回一个段落约 0.3 秒；文档编辑器从按键到排好版约 9 毫秒。
+- **原生读写 Word、Excel、PowerPoint**：.docx、.xlsx、.pptx 直接打开、直接保存，存出来仍是标准的 Office Open XML 文件。Word 的内容控件、书签、分页符、页眉页脚和脚注原样保留；Excel 的公式、原生图表、数据透视表、条件格式、筛选和迷你图照常工作。
+- **中文国标格式**：OFD 版式文件（GB/T 33190）可以直接打开、编辑和另存，PDF 与 OFD 互相转换；中文期刊论文模板按 GB/T 7714—2015 著录参考文献，学位论文模板按 GB/T 7713.1 排版；多级编号自带公文层级：一、（一）1.（1）。
+
 ## 免费文档翻译
 
 在浏览器中打开[免费文档翻译](https://omnidoc.top/free/translate/)，用 OmniDoc 账号登录（注册免费），不需要安装软件。
@@ -116,6 +122,12 @@ Use OmniDoc to work on the files themselves:
 For PDFs, click into a paragraph and type. The layout you see as you edit is the layout saved to the file. PDF tools also include electronic signatures, forms, text recognition and export to Word, Excel and PowerPoint.
 
 The **MCP interface** gives AI assistants such as Claude, Codex and Cursor direct access to read, edit and export documents. If a document is open in OmniDoc, the AI's changes appear in that same window as it works. See the [developer documentation](https://docs.omnidoc.top/) for connection instructions.
+
+## Speed, native Office formats and Chinese standard formats
+
+- **Quick to open and save:** a 13.6 MB research paper in PDF shows its first page about 4 seconds after launch and saves in about 0.06 seconds. Type into a PDF paragraph and the page shows the final layout as you type; writing the paragraph back takes about 0.3 seconds. In the document editor a key press is laid out in about 9 milliseconds.
+- **Word, Excel and PowerPoint, read and written natively:** .docx, .xlsx and .pptx files open and save directly and stay standard Office Open XML files. Word content controls, bookmarks, page breaks, headers, footers and footnotes are kept; Excel formulas, native charts, pivot tables, conditional formatting, filters and sparklines keep working.
+- **Chinese standard formats:** OFD files (GB/T 33190) open, edit and save as they are, and convert to and from PDF. The Chinese journal paper template formats references to GB/T 7714—2015, the thesis template follows GB/T 7713.1, and multilevel numbering includes the official-document levels 一、（一）1.（1）.
 
 ## Free document translation
 
