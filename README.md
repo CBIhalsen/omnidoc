@@ -52,7 +52,7 @@ PDF 与 LaTeX 文件翻译后，双语对照版和纯译文各给一份：前者
 - 上传的文件和处理结果只有提交人自己看得到。
 - 免费翻译采用机器翻译，重要文件请核对数字、术语和引用。
 
-![OmniDoc 双语对照翻译界面](https://omnidoc.top/images/screenshots/zh/translate-bilingual-1280.webp)
+![OmniDoc 双语对照翻译界面](https://omnidoc.top/images/screenshots/zh/translate-bilingual-v2-1280.webp)
 
 上图展示双语对照翻译界面，原文和译文放在一起，便于核对内容。
 
@@ -63,6 +63,23 @@ PDF 与 LaTeX 文件翻译后，双语对照版和纯译文各给一份：前者
 PDF、扫描件和图片经版面分析、文字识别和表格识别处理；Word、PowerPoint、Excel、电子书和网页直接解析文档结构。下载的 ZIP 压缩包里有 `document.md`（Markdown 全文）、`document.json`（按阅读顺序排列的结构化数据）、`images/`（文档中的图片）和 `manifest.json`（文件清单）。
 
 标题层级、段落和表格行列都会保留。PDF 单个文件最多 501 页，每人同时处理 2 个文件。扫描件的识别结果请与原文核对，尤其是数字和表格。
+
+## 常见问题
+
+**怎么翻译 PDF 又不乱版？**
+打开[免费文档翻译](https://omnidoc.top/free/translate/)，登录后上传 PDF。OmniDoc 整篇翻译，标题、段落、表格（逐格翻译）、公式和图片放回原位，同时给出双语对照版和纯译文版。免费版单个文件最多 501 页。
+
+**LaTeX 论文、arXiv 源码包能翻译吗？**
+能。上传 `.tex` 文件或整个源码包，公式原样保留，输出双语对照版和纯译文版。
+
+**扫描版 PDF 怎么转成 Markdown 或 JSON？**
+用[免费结构化提取](https://omnidoc.top/free/extract/)：扫描件先做文字识别，再按版面整理标题、段落和表格，下载的 ZIP 里有 `document.md`、`document.json` 和图片。
+
+**Claude、Cursor 能用 OmniDoc 直接改 Word、Excel、PPT 吗？**
+能。桌面版自带 MCP 服务，40 多个文档工具；AI 在你的电脑上新建、修改和导出文件，编辑和格式转换离线免费，翻译等云端服务按积分计费，不需要 API Key。接入方式见[开发者文档](https://docs.omnidoc.top/)。
+
+**OmniDoc 开源吗？**
+不开源。OmniDoc 是专有软件，可以免费下载、安装和使用，许可见 [LICENSE](LICENSE)。
 
 ## 许可与链接
 
@@ -116,7 +133,7 @@ The free service has these limits:
 - Only the person who submitted a file can view its results.
 - It is machine translation: please check numbers, terms and citations in important documents.
 
-![OmniDoc bilingual translation interface](https://omnidoc.top/images/screenshots/en/translate-bilingual-1280.webp)
+![OmniDoc bilingual translation interface](https://omnidoc.top/images/screenshots/en/translate-bilingual-v2-1280.webp)
 
 The screenshot shows the bilingual view, with the original text alongside its translation for comparison.
 
@@ -127,6 +144,26 @@ Open the [free structured extractor](https://omnidoc.top/free/extract/) in your 
 PDFs, scans and images go through layout analysis, OCR and table recognition. Word, PowerPoint, Excel, EPUB and HTML files are parsed directly. The downloaded ZIP contains `document.md` (the full text as Markdown), `document.json` (structured data in reading order), `images/` (the pictures) and `manifest.json` (a file list).
 
 Heading levels, paragraphs and table rows and columns are kept. Up to 501 pages per PDF and two files at a time. Please check OCR results against the original, especially numbers and tables.
+
+## Frequently asked questions
+
+**How do I translate a PDF without losing the layout?**
+Open the [free document translator](https://omnidoc.top/free/translate/), sign in and upload the PDF. OmniDoc translates the whole file and puts headings, paragraphs, tables (translated cell by cell), formulas and images back where they were, and returns a bilingual version and a translation-only version. The free service takes files of up to 501 pages.
+
+**Can I translate a LaTeX paper or an arXiv source package?**
+Yes. Upload the `.tex` file or the whole source bundle; formulas are kept as written, and you get a bilingual and a translation-only version.
+
+**How do I convert a scanned PDF to Markdown or JSON?**
+Use the [free structured extractor](https://omnidoc.top/free/extract/). Scans go through text recognition, then headings, paragraphs and tables are rebuilt from the layout. The ZIP contains `document.md`, `document.json` and the images.
+
+**Can Claude or Cursor edit Word, Excel and PowerPoint files with OmniDoc?**
+Yes. The desktop app includes an MCP server with more than 40 document tools. Your assistant creates, edits and exports files on your computer; editing and conversion are offline and free, and cloud services such as translation use credits. No API key is needed. See the [developer documentation](https://docs.omnidoc.top/).
+
+**Which systems are supported?**
+Windows 10 and 11 (x64), macOS 12 or later (Intel) and 64-bit Linux distributions based on Debian (glibc 2.30 or later), such as Ubuntu 20.04 and Debian 11.
+
+**Is OmniDoc open source?**
+No. OmniDoc is proprietary software that you can download, install and use free of charge under the [LICENSE](LICENSE).
 
 ## License and links
 
